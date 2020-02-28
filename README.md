@@ -18,3 +18,7 @@ HTML CSS JavaScript
 ## Learning Phase
 - Very challenging assignment whereby a lot of attempts and readring were made.
 - Internet resources are helpful when having a skill to find solutions.
+
+## Attempts
+--- This fills the screen and it works but colorpicker was the issue:
+--- 
