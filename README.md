@@ -10,6 +10,7 @@ HTML CSS JavaScript
 - Grid on margin: auto; becomes center positioned but not fill the whole screen.
 - Provided is full width, then the cells become more than the required 100
 - Increasing the cell size to fill the space works but then the mousedown events and position changes state.
+- Time was also against me.
 
 ## Conclusion
 - Left half screen even though CSS width is 100% !important.
