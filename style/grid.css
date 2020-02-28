@@ -1,0 +1,90 @@
+* { margin:0; padding:0; } /* to remove the top and left whitespace */
+
+html, body { width:100%; height:100%; } /* just to be sure these are full screen*/
+
+canvas { display:block; 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+    
+} /* To remove the scrollbars */
+ 
+
+/* colorPicker background */
+.colorPicker {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 0px; /* Location of the box */
+  left: 0;
+  top: 0;
+
+}
+
+/* colorPicker content */
+.content {
+  background-color: white;
+  margin: auto;
+  border: 1px solid #888;
+  float: left;
+}
+
+div.magenta {
+  background-color: #f0f;
+  width: 30px;
+  height: 30px;
+  margin: 3px 0px 3px 3px;
+}
+
+div.red {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+margin: 3px 0px 3px 3px;
+}
+
+div.blue {
+  background-color: blue;
+  width: 30px;
+  height: 30px;
+margin: 3px 0px 3px 3px;
+}
+
+div.yellow {
+  background-color: yellow;
+  width: 30px;
+  height: 30px;
+margin: 3px 0px 3px 3px;
+}
+
+div.cyan {
+  background-color: rgb(0, 255, 255);
+  width: 30px;
+  height: 30px;
+margin: 3px 3px 3px 3px;
+}
+
+div.magenta, div.red, div.blue, div.yellow, div.cyan{
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    opacity: 0.2;
+}
+
+div.magenta:hover{
+    opacity: 1;
+}
+div.red:hover{
+    opacity: 1;
+}
+div.blue:hover{
+    opacity: 1;
+}
+div.yellow:hover{
+    opacity: 1;
+}
+div.cyan:hover{
+    opacity: 1;
+}
