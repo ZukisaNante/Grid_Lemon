@@ -20,5 +20,5 @@ HTML CSS JavaScript
 - Internet resources are helpful when having a skill to find solutions.
 
 ## Attempts
--- This fills the screen and it works but colorpicker was the issue:
--- https://zukisanante.github.io/Full_Screen_Grid/home.html
+---- This fills the screen and it works but colorpicker was the issue:
+---- https://zukisanante.github.io/Full_Screen_Grid/home.html
