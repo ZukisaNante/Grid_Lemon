@@ -2,7 +2,7 @@ $(document).ready(function()
 {   
     var selectedColor="red";
     $("body").css("overflow", "hidden");
-    /*https://stackoverflow.com/questions/28576966/draw-clickable-grid-of-1-million-squares*/
+
     var canvas = document.getElementById('myCanvas');
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
@@ -10,11 +10,9 @@ $(document).ready(function()
 
     drawGrid(context);
 
-    // https://jsfiddle.net/SamyBencherif/2tjxcz99/
     canvas.addEventListener('click', function(evt) {
         var mousePos = getSquare(canvas, evt);
         var color=selectedColor;
-        
         var eventLocation = getEventLocation(this,evt);
         // Get the data of the pixel according to the location generate by the getEventLocation function
         var context2 = this.getContext('2d');
@@ -28,7 +26,6 @@ $(document).ready(function()
     }, false);
 
      /*
-    https://stackoverflow.com/questions/47737404/detecting-left-and-right-mouse-events-for-a-canvas-game
     left button=0, 
     middle button=1,
     right button=2
@@ -69,7 +66,7 @@ $(document).ready(function()
         }
     });
     
-    /*http://jsfiddle.net/f5EMT/1/*/
+
     var mousePosition;
     var offset = [0,0];
     var div;
@@ -103,7 +100,7 @@ $(document).ready(function()
     }, true);
 
     canvas.addEventListener("mousemove",function(e){
-    // http://jsfiddle.net/Meligy/2kyaJ/3/
+    
     setInterval(function(){
         var $sample1 = $("#magentaID");
         var $sample2 = $("#redID");
@@ -162,7 +159,7 @@ function fillSquare(context, x, y, color){
     context.fillRect(x,y,9,9);
 }
 
-/*https://www.w3schools.com/howto/howto_css_modals.asp*/
+
 function popup(){
     // Get the colorPicker
     var colorPicker = document.getElementById("myColorPicker");
@@ -181,7 +178,7 @@ function replaceColorPicker(x_pos, y_pos) {
   d.style.top = y_pos+'px';
 }
 
-/*https://ourcodeworld.com/articles/read/185/how-to-get-the-pixel-color-from-a-canvas-on-click-or-mouse-event-with-javascript*/
+
 var canvas = document.getElementById("canvas");
 
 function getElementPosition(obj) {
@@ -205,7 +202,7 @@ function getEventLocation(element,event){
     };
 }
 
-// https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmousedown
+
 function mouseDownMagenta() {
   var colorPicker = document.getElementById("myColorPicker");
   $(colorPicker).fadeOut(1500);
