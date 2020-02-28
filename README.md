@@ -12,4 +12,8 @@ HTML CSS JavaScript
 - Increasing the cell size to fill the space works but then the mousedown events and position changes state.
 
 ## Conclusion
-- Left half screen even though CSS 
+- Left half screen even though CSS width is 100% !important.
+
+## Learning Phase
+- Very challenging assignment whereby a lot of attempts and readring were made.
+- Internet resources are helpful when having a skill to find solutions.
