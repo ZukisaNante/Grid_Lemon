@@ -1,3 +1,3 @@
-https://zukisanante.github.io/Grid_Lemon/index.html
+https://zukisanante.github.io/Grid_Lemon/
 # Grid_Lemon
 HTML CSS JavaScript
